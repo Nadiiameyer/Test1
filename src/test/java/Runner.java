@@ -1,7 +1,7 @@
 import org.junit.platform.suite.api.*;
 import ui.GitHubTest;
 
-@SelectPackages("ui")
+@SelectPackages("src/test/ui")
 @SelectClasses(GitHubTest.class)
 @IncludeTags("regression")
 @ExcludeTags("omit")
